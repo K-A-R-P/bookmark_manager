@@ -24,8 +24,9 @@
 ---
 
 ## 🚀 Запуск
-Запустить exe файл из репозитория или<br>
- 
+Запустить exe файл из репозитория
+[cкачать](https://github.com/K-A-R-P/bookmark_manager/releases/latest/download/BookmarkManager.exe) 
+<br>или<br>
 Скачайте исходный код
 ```bash
 git clone https://github.com/K-A-R-P/bookmark_manager.git
