@@ -46,7 +46,7 @@ pip install pyinstaller
 ```bash
 pyinstaller --clean --onefile --noconsole --add-data "templates;templates" --add-data "static;static" --icon=icon.ico --name="BookmarkManager" --hidden-import=engineio.async_drivers.threading --hidden-import=simple_websocket app.py
 ```
-База данных создаётся рядом с приложением
+
 ---
 
 ## 📖 Использование
@@ -77,24 +77,3 @@ pyinstaller --clean --onefile --noconsole --add-data "templates;templates" --add
 - В появившемся окне выберите, разбивать ли закладки по папкам (вкладки → папки) или нет.
 - Нажмите **«Скачать HTML»** – файл `bookmarks-chrome.html` будет сохранён.  
 - Импортируйте его в Chrome через **Закладки → Импорт закладок и настроек → Файл HTML**.
-
----
-
-## 🛠 Технологии
-
-- **Backend**: Python 3, Flask, Flask‑SocketIO, SQLite.
-- **Frontend**: HTML, CSS (Tailwind), JavaScript, FontAwesome.
-- **Прочее**: WebSocket для отслеживания открытых вкладок (авто‑закрытие).
-
----
-
-## 🗄️ База данных
-
-- Таблица `tabs`: `id`, `name`, `position`
-- Таблица `cards`: `id`, `tab_id`, `title`, `description`, `url`, `image`, `position`
-
-При первом запуске создаётся одна вкладка с именем **«Вкладка»**.
-
----
-
-**Приятного использования!** 🌟
