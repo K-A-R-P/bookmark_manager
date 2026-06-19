@@ -1,9 +1,10 @@
+
 # 📚 Bookmark Manager
 
 > Удобное десктопное приложение для управления закладками с вкладками, поиском, импортом/экспортом и авто‑закрытием.
 
 ![Screenshot](https://via.placeholder.com/800x400?text=Bookmark+Manager+Preview)
-
+<img width="1304" height="623" alt="Снимок экрана 2026-06-19 033802" src="https://github.com/user-attachments/assets/7911c794-1d83-48c7-b6cd-9d039551752c" />
 ---
 
 ## ✨ Возможности
